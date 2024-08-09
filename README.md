@@ -13,6 +13,9 @@ The project is organized into the following folders and files:
   - `model_evaluation.py`: Script to evaluate the trained model.
   - `visualizations.py`: Script to generate visualizations such as feature importance.
   - `visualizations1.py`: Script to generate confusion matrix visualizations.
+  - `visualizations2.py`: Script to generate ROC Curve visualizations.
+   - `visualizations3.py`: Script to generate Precision-Recall Curve visualizations.
+   - `visualizations4.py`: Script to generate K-Fold Cross-Validation visualizations.
   - `load_data.py`: Script to load and preprocess the dataset.
 
 - `README.md`: This file, which provides an overview and instructions for the project.
