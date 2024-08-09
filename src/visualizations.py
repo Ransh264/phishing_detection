@@ -20,7 +20,7 @@ def plot_feature_importance(model, features):
 model = joblib.load('saved_models/random_forest_model.pkl')
 
 # Loaded dataset 
-test_df = load_arff(r'C:\Users\prerna singh\OneDrive\Desktop\phishing detection\Training Dataset.arff')  # Update this path to your actual test dataset
+test_df = load_arff(r'C:\Users\prerna singh\OneDrive\Desktop\phishing detection\Training Dataset.arff')  
 test_df.fillna(method='ffill', inplace=True)  # Forward fill missing values
 
 # Prepared data
